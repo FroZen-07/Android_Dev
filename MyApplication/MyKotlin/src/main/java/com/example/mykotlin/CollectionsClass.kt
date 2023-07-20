@@ -4,6 +4,10 @@ fun main() {
 
     val myListOfName = listOf("James", "Paul", "Rafael", "Gina")
 //    println(myListOfName)
+    val found = myListOfName.filter{
+        it.length > 4
+    }
+    println(found)
 
     // mutable
     val myMutableList = mutableListOf(12, 34, 45, 123)
